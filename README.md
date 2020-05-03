@@ -6,17 +6,17 @@ In this project I demonstrate how to include an API Gateway using [Kong](https:/
 
 ---
 
-####Prerequisites
+#### Prerequisites
 
 To make use of this project the only prerequisites are to have the [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) installed.
 
-####First Steps
+#### First Steps
 
 To start, it is necessary that the containers configured in the [docker-compose.yml](https://github.com/paulohenriq/implements-api-gateway/blob/master/docker-compose.yml) file are standing. To do this, simply run the following command on your terminal:
 
 `$ docker-compose up -d`
 
-####Checking if everything is fine
+#### Checking if everything is fine
 
 After performing the previous step you should check that all containers are in UP status. To do this, use the following command on your terminal:
 
@@ -24,7 +24,7 @@ After performing the previous step you should check that all containers are in U
 
 ---
 
-###Accessing Kong through the Konga GUI
+### Accessing Kong through the Konga GUI
 
 **Kong**: The worlds most popular open source API gateway. Built for multi-cloud and hybrid, optimized for microservices and distributed architectures.
 
